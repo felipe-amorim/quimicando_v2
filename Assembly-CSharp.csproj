@@ -45,6 +45,7 @@
      <Compile Include="Assets\ProceduralUIImage\Scripts\Attributes\ModifierID.cs" />
      <Compile Include="Assets\ProceduralUIImage\Scripts\Modifiers\CustomPremadeModifier.cs" />
      <Compile Include="Assets\ProceduralUIImage\Scripts\Modifiers\RoundModifier.cs" />
+     <None Include="Assets\Lean\READ ME.txt" />
      <None Include="Assets\ProceduralUIImage\Resources\Shaders\ProceduralImageRuntime.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files (x86)/Unity/2020.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -609,6 +610,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanTouchPlus.csproj">
+      <Project>{70c3ab45-d255-62cc-430c-b37c2a894c54}</Project>
+      <Name>LeanTouchPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{67038a8c-2bf3-2128-bc41-dc096ee9e822}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{9ea5d8bc-ce68-b431-2f70-f2a1be837e36}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
